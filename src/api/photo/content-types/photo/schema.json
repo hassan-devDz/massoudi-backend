@@ -15,16 +15,8 @@
     "gallery": {
       "type": "dynamiczone",
       "components": [
-        "photo.gallery"
-      ],
-      "required": true
-    },
-    "pho": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
+        "shared.slider"
+      ]
     }
   }
 }
