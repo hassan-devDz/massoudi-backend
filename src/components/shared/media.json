@@ -16,10 +16,6 @@
         "files",
         "videos"
       ]
-    },
-    "id_youtube_video": {
-      "type": "string",
-      "unique": false
     }
   }
 }

@@ -68,7 +68,8 @@
         "shared.quote",
         "shared.rich-text",
         "shared.slider",
-        "shared.seo"
+        "shared.seo",
+        "shared.video"
       ],
       "pluginOptions": {}
     }
