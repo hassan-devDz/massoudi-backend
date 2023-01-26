@@ -1,22 +1,20 @@
 {
   "kind": "singleType",
-  "collectionName": "photos",
+  "collectionName": "testimonials",
   "info": {
-    "singularName": "photo",
-    "pluralName": "photos",
-    "displayName": "photo",
-    "description": ""
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "testimonial"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "gallery": {
+    "testimonial": {
       "type": "dynamiczone",
       "components": [
-        "shared.slider",
-        "shared.media"
+        "shared.testimonials"
       ]
     }
   }
