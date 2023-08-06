@@ -15,8 +15,7 @@
     "gallery": {
       "type": "dynamiczone",
       "components": [
-        "shared.slider",
-        "shared.media"
+        "shared.slider"
       ]
     }
   }

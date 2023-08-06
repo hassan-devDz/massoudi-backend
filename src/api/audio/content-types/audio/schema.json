@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "audios",
+    "info": {
+        "singularName": "audio",
+        "pluralName": "audios",
+        "displayName": "Audios"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "spotify_album_id": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        },
+        "title": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        }
+    }
+}

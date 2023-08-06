@@ -34,6 +34,46 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "small_title": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "name_first_button": {
+      "type": "string",
+      "required": true
+    },
+    "slug_first_button": {
+      "type": "uid",
+      "targetField": "name_first_button",
+      "required": true
+    },
+    "name_second_button": {
+      "type": "string",
+      "required": true
+    },
+    "slug_second_button": {
+      "type": "uid",
+      "targetField": "name_second_button",
+      "required": true
+    },
+    "short_description": {
+      "type": "string"
     }
   }
 }

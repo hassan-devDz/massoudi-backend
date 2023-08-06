@@ -55,7 +55,8 @@
     },
     "job": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 24
     },
     "slug": {
       "type": "uid",

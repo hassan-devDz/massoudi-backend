@@ -7,13 +7,17 @@
   },
   "options": {},
   "attributes": {
-    "files": {
+    "photos": {
       "type": "media",
       "multiple": true,
       "required": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }

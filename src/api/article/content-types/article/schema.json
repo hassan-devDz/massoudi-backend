@@ -16,7 +16,8 @@
       "type": "string",
       "required": true,
       "unique": true,
-      "pluginOptions": {}
+      "pluginOptions": {},
+      "minLength": 20
     },
     "description": {
       "type": "text",
@@ -26,7 +27,7 @@
       "minLength": 80
     },
     "slug": {
-      "type": "uid",
+      "type": "string",
       "targetField": "title",
       "required": true
     },
@@ -35,9 +36,7 @@
       "multiple": false,
       "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "pluginOptions": {}
     },
@@ -51,6 +50,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
+      "required": true,
       "inversedBy": "articles"
     },
     "tags": {
@@ -70,6 +70,10 @@
         "shared.video"
       ],
       "pluginOptions": {}
+    },
+    "comments": {
+      "type": "customField",
+      "customField": "plugin::comments.comments"
     }
   }
 }

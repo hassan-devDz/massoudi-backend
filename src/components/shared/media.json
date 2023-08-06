@@ -1,20 +1,18 @@
 {
   "collectionName": "components_shared_media",
   "info": {
-    "displayName": "Media",
+    "displayName": "Pdf_File",
     "icon": "file-video",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "file": {
+    "pdf": {
       "type": "media",
       "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "files"
       ]
     }
   }

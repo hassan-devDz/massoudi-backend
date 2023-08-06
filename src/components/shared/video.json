@@ -6,9 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "Id_youtube_video": {
+    "YouTube_link": {
       "type": "string",
-      "required": true
+      "required": true,
+      "regex": "^(?:https?:\\/\\/)?(?:www\\.)?(?:youtu\\.be\\/|youtube\\.com\\/(?:embed\\/|v\\/|watch\\?v=|watch\\?.+&v=))([^?\\s]+)$"
     }
   }
 }

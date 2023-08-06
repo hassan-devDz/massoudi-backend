@@ -2256,6 +2256,14 @@
     "@strapi/utils" "4.5.6"
     fs-extra "10.0.0"
 
+"@strapi/provider-upload-local@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-local/-/provider-upload-local-4.7.0.tgz#9b43efe9e10694fb16b9fe4035bd0bcdf7ba1389"
+  integrity sha512-8yPWnd3Sas+lLJBl90+PNGN7AnW1eeE6MBOU1W/GkI0zHqHn7f111ODflaKWEKsFhylSTWCg33mSPvmR7LL22A==
+  dependencies:
+    "@strapi/utils" "4.7.0"
+    fs-extra "10.0.0"
+
 "@strapi/strapi@4.5.6":
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/@strapi/strapi/-/strapi-4.5.6.tgz#67163d889bd611cfe4ff163de9492f5d36d0ed3c"
@@ -2336,6 +2344,18 @@
     date-fns "2.29.3"
     http-errors "1.8.1"
     lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.7.0.tgz#423e01d93010379ba43cd73a2ba07ee86bd1ef17"
+  integrity sha512-E1+dYjFWJdXTq1XnRt/DoFrMXc23UFQf/mB2BTCBEq/ajV3QDhbritAQM30XMpGPSFaOJoLs7earT/1GGuv2TQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.29.3"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
     yup "0.32.9"
 
 "@swc/helpers@^0.4.14":
@@ -10197,6 +10217,11 @@ strapi-plugin-comments@^2.2.4:
     "@types/styled-components" "^5.1.26"
     bad-words "^3.0.4"
     styled-components "^5.3.6"
+
+strapi-plugin-oembed@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-oembed/-/strapi-plugin-oembed-1.0.1.tgz#7689dac43e08f8e4a4115f1b54e330d957acb287"
+  integrity sha512-h5w2Jm5nB5ph98TKcp5hLPnPoPR2XvTw/icB4WyLxnuMt8UTh+biOXE6RWlQBq6GUUt3A1tZ019pMGuROgUGIw==
 
 stream-browserify@^3.0.0:
   version "3.0.0"
